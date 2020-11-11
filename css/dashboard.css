@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900");
-@import url(c:\Users\Umang\Desktop\Mera Interest Website\css\bootstrap.min.css);
-@import url(c:\Users\Umang\Desktop\Mera Interest Website\css\animate.css);
-@import url(c:\Users\Umang\Desktop\Mera Interest Website\css\owl.carousel.min.css);
-@import url(c:\Users\Umang\Desktop\Mera Interest Website\css\magnific-popup.css);
-@import url(c:\Users\Umang\Desktop\Mera Interest Website\css\animated-headline.css);
-@import url(c:\Users\Umang\Desktop\Mera Interest Website\css\font-awesome.min.css);
-@import url(c:\Users\Umang\Desktop\Mera Interest Website\css\font-icons.css);
+@import url(c:\wamp64\www\Mera-Interest\css\bootstrap.min.css);
+@import url(c:\wamp64\www\Mera-Interest\css\animate.css);
+@import url(c:\wamp64\www\Mera-Interest\css\owl.carousel.min.css);
+@import url(c:\wamp64\www\Mera-Interest\css\magnific-popup.css);
+@import url(c:\wamp64\www\Mera-Interest\css\animated-headline.css);
+@import url(c:\wamp64\www\Mera-Interest\css\font-awesome.min.css);
+@import url(c:\wamp64\www\Mera-Interest\css\font-icons.css);
 * {
   margin: 0;
   padding: 0;
@@ -757,6 +757,18 @@ button:focus, input:focus, select:focus {
   margin-bottom: 0;
 }
 
+.main .wrapper .amount-detail-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .main .wrapper .data-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -788,6 +800,16 @@ button:focus, input:focus, select:focus {
   font-weight: 300;
   line-height: 1.3;
   font-size: 2.625rem;
+}
+
+.main .wrapper .value.interest {
+  color: var(--color-text-8);
+}
+
+.main .wrapper .value.interest span:last-child {
+  font-size: 18px;
+  margin-left: 14px;
+  font-weight: 400;
 }
 
 .main .wrapper .holdings-block .holding-title {
@@ -835,10 +857,15 @@ button:focus, input:focus, select:focus {
 }
 
 .main .wrapper .holdings-block .data-box .secondary-stats .block .label {
-  min-width: 90px;
+  min-width: 160px;
   display: inline-block;
   font-size: .75rem;
   color: var(--color-text-1);
+}
+
+.main .wrapper .holdings-block .data-box .secondary-stats .block .label img {
+  width: 90px;
+  margin-right: 10px;
 }
 
 .main .wrapper .holdings-block .data-box .secondary-stats .block .value {

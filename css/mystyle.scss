@@ -843,15 +843,21 @@ h5{
     }
 }
 
-
+.hero-section{
+    min-height: 620px;
+}
 .hero-section-content{
     width: 100%;
     .welcome-content{
         margin-left: 60px;
-        margin-top: 50px;
+        margin-top: 60px;
         p{
-            font-size: 22px;
-            margin-bottom: 20px;
+            // font-size: 22px;
+            // margin-bottom: 20px;
+            font-size: 30px;
+            margin-bottom: 24px;
+            color: #fff;
+            font-weight: 600;
         }
         .rates_container{
             display: flex;
@@ -883,21 +889,29 @@ h5{
         ul{
             list-style: none;
             padding: 0;
-            margin-bottom: 40px;
+            margin-bottom: 54px;
             li{
                 color: #fff;
-                margin-bottom: 10px;
-                padding-left: 30px;
+                // margin-bottom: 10px;
+                // padding-left: 30px;
                 position: relative;
-                &:before{
-                    content: '';
-                    background: #fff ;
-                    position: absolute;
-                    top: 50%;
-                    left: 0;
-                    width: 16px;
-                    height: 2px;
+                display: flex;
+                margin-bottom: 14px;
+                font-size: 17px;
+                svg{
+                    width: 18px;
+                    margin-right: 20px;
+                    fill: #fff;
                 }
+                // &:before{
+                //     content: '';
+                //     background: #fff ;
+                //     position: absolute;
+                //     top: 50%;
+                //     left: 0;
+                //     width: 16px;
+                //     height: 2px;
+                // }
             }
         }
     }

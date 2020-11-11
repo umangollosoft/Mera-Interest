@@ -8,20 +8,24 @@
                         Hi
                         <span class="nickname">Umang</span>
                     </div>
-                    <div class="margins-stats stats-block">
+                    <div class="margins-stats stats-block amount-detail-box">
                         <div class="data-box">
                             <div class="secondary-title">
                                 <div class="name">FD</div>
                                 <div class="value">
-                                    250.91
+                                    1,00,250.91
                                 </div>
                             </div>
                             <div class="secondary-title">
-                                <div class="name">commodity</div> 
-                                <div class="value">
-                                    250.91
+                                <div class="name">Interest</div> 
+                                <div class="value interest">
+                                    <span>12,520</span><span>+ 1.25%</span>
                                 </div>
                             </div>
+                        </div>
+                        <div class="add-button" data-toggle="modal" data-target="#add_fund_modal">
+                            <span class="icon icon-plus"></span>
+                            <span>Add FD</span>
                         </div>
                     </div>
                     <div class="stats-block holdings">
@@ -43,15 +47,15 @@
                             <div class="data-box">
                                 <div class="secondary-stats">
                                     <div class="block">
-                                        <span class="label">ICICI</span> 
+                                        <span class="label"><img src="../img/partners/2.png"></span> 
                                         <span class="value">2</span>
                                     </div> 
                                     <div class="block">
-                                        <span class="label">SBI</span> 
+                                        <span class="label"><img src="../img/partners/1.png"></span> 
                                         <span class="value">1</span>
                                     </div>
                                     <div class="block">
-                                        <span class="label">RBL</span> 
+                                        <span class="label"><img src="../img/partners/5.png"></span> 
                                         <span class="value">1</span>
                                     </div>
                                 </div>
@@ -69,10 +73,6 @@
                         </div>
                     </div>
                     <div class="stats-block no-border">
-                        <div class="add-button" data-toggle="modal" data-target="#add_fund_modal">
-                            <span class="icon icon-plus"></span>
-                            <span>Add FD</span>
-                        </div>
                         <table id="table_id">
                             <thead>
                                 <tr>
