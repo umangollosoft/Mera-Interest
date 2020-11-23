@@ -31,12 +31,24 @@
                                 <span>3288-xxxxx-xxxx</span>
                             </li>
                             <li>
+                                <span>Email</span>
+                                <span>Rohit@ollosoft.com</span>
+                            </li>
+                            <li>
                                 <span>Password Change</span>
                                 <span class="link"><a href="#">Change</a></span>
                             </li>
                             <li>
-                                <span>KYC</span>
-                                <span>Done</span>
+                                <span>DOB</span>
+                                <span>12 Nov, 1985</span>
+                            </li>
+                            <li>
+                                <span>Phone Number</span>
+                                <span>9784426253</span>
+                            </li>
+                            <li>
+                                <span>Address</span>
+                                <span>XYZ street, Jaipur</span>
                             </li>
                         </ul>
                     </div>

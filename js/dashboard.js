@@ -7,12 +7,21 @@ $(".dropdown-label").click(function(){
     }
 })
 
-$('#table_id').DataTable({
+$('#fd_by_merainterest').DataTable({
     bInfo : false,
     "oLanguage": { "sSearch": "" },
     language: {
         searchPlaceholder: "Search",
-        lengthMenu: 'My Fixed Deposit’s'
+        lengthMenu: "FD's Opened through merainterest.com"
+    }
+});
+
+$('#fd_by_manually').DataTable({
+    bInfo : false,
+    "oLanguage": { "sSearch": "" },
+    language: {
+        searchPlaceholder: "Search",
+        lengthMenu: "FD's Added Manually"
     }
 });
 

@@ -4,49 +4,213 @@
         <div class="wrapper">
             <div class="page-content">
                 <div class="dashboard">
-                    <div class="page-title">FD's</div>
                     <div class="stats-block no-border">
-                        <div class="add-button" data-toggle="modal" data-target="#add_fund_modal">
-                            <span class="icon icon-plus"></span>
-                            <span>Add FD</span>
-                        </div>
-                        <table id="table_id">
+                        <table id="fd_by_merainterest" class="fd_table">
                             <thead>
                                 <tr>
-                                    <th>Banks</th>
-                                    <th>Account</th>
-                                    <th>Investment</th>
-                                    <th>Maturity</th>
+                                    <th>No.</th>
+                                    <th>Bank Name</th>
+                                    <th>A/C No.</th>
+                                    <th>FD Open Date</th>
+                                    <th>Tenure(Months)</th>
                                     <th>Maturity Date</th>
-                                    <th></th>
+                                    <th>Interest Rate</th>
+                                    <th>FD Amount</th>
+                                    <th>Interest Earned</th>
+                                    <th>Maturity Amount</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>ICICI</td>
-                                    <td>MI525846</td>
-                                    <td>100000</td>
-                                    <td>150000</td>
-                                    <td>03/10/2025</td>
-                                    <td><button>View</button></td>
+                                    <td>1</td>
+                                    <td>RBL Bank</td>
+                                    <td>12345678</td>
+                                    <td>1-Jan-20</td>
+                                    <td>24</td>
+                                    <td>31-Dec-21</td>
+                                    <td>8.50%</td>
+                                    <td>200,000</td>
+                                    <td>34,000</td>
+                                    <td>234,000</td>
                                 </tr>
                                 <tr>
-                                    <td>SBI</td>
-                                    <td>MI525846</td>
-                                    <td>100000</td>
-                                    <td>150000</td>
-                                    <td>03/10/2025</td>
-                                    <td><button>View</button></td>
+                                    <td>2</td>
+                                    <td>RBL Bank</td>
+                                    <td>5678952</td>
+                                    <td>1-Jul-20</td>
+                                    <td>12</td>
+                                    <td>31-May-21</td>
+                                    <td>8.75%</td>
+                                    <td>150,000</td>
+                                    <td>13,125</td>
+                                    <td>163,125</td>
                                 </tr>
                                 <tr>
-                                    <td>RBL</td>
-                                    <td>MI525846</td>
-                                    <td>100000</td>
-                                    <td>150000</td>
-                                    <td>03/10/2025</td>
-                                    <td><button>View</button></td>
+                                    <td>3</td>
+                                    <td>RBL Bank</td>
+                                    <td>12345678</td>
+                                    <td>15-Jan-20</td>
+                                    <td>24</td>
+                                    <td>14-Dec-21</td>
+                                    <td>8.50%</td>
+                                    <td>200,000</td>
+                                    <td>34,000</td>
+                                    <td>234,000</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>AU Small Finance Bank</td>
+                                    <td>12345678</td>
+                                    <td>15-Jan-20</td>
+                                    <td>24</td>
+                                    <td>31-May-21</td>
+                                    <td>8.50%</td>
+                                    <td>200,000</td>
+                                    <td>34,000</td>
+                                    <td>234,000</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Sarvodaya Bank</td>
+                                    <td>5678952</td>
+                                    <td>1-Jul-20</td>
+                                    <td>12</td>
+                                    <td>31-May-21</td>
+                                    <td>8.75%</td>
+                                    <td>150,000</td>
+                                    <td>13,125</td>
+                                    <td>163,125</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>IndusInd Bank</td>
+                                    <td>12345678</td>
+                                    <td>15-Jul-20</td>
+                                    <td>24</td>
+                                    <td>14-Dec-21</td>
+                                    <td>8.50%</td>
+                                    <td>200,000</td>
+                                    <td>34,000</td>
+                                    <td>234,000</td>
                                 </tr>
                             </tbody>
+                            <tfoot>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>1,050,000</td>
+                                <td>141,375</td>
+                                <td>1,191,375</td>
+                            </tfoot>
+                        </table>
+                    </div>
+
+                    <div class="stats-block no-border">
+                        <table id="fd_by_manually" class="fd_table">
+                            <thead>
+                                <tr>
+                                    <th>No.</th>
+                                    <th>Bank Name</th>
+                                    <th>A/C No.</th>
+                                    <th>FD Open Date</th>
+                                    <th>Tenure(Months)</th>
+                                    <th>Maturity Date</th>
+                                    <th>Interest Rate</th>
+                                    <th>FD Amount</th>
+                                    <th>Interest Earned</th>
+                                    <th>Maturity Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>SBI</td>
+                                    <td>12345678</td>
+                                    <td>1-Jan-20</td>
+                                    <td>24</td>
+                                    <td>31-Dec-21</td>
+                                    <td>8.50%</td>
+                                    <td>200,000</td>
+                                    <td>34,000</td>
+                                    <td>234,000</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>SBI</td>
+                                    <td>5678952</td>
+                                    <td>1-Jul-20</td>
+                                    <td>12</td>
+                                    <td>31-May-21</td>
+                                    <td>8.75%</td>
+                                    <td>150,000</td>
+                                    <td>13,125</td>
+                                    <td>163,125</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>SBI</td>
+                                    <td>12345678</td>
+                                    <td>15-Jan-20</td>
+                                    <td>24</td>
+                                    <td>14-Dec-21</td>
+                                    <td>8.50%</td>
+                                    <td>200,000</td>
+                                    <td>34,000</td>
+                                    <td>234,000</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>SBI</td>
+                                    <td>12345678</td>
+                                    <td>15-Jan-20</td>
+                                    <td>24</td>
+                                    <td>31-May-21</td>
+                                    <td>8.50%</td>
+                                    <td>200,000</td>
+                                    <td>34,000</td>
+                                    <td>234,000</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>ICICI Bank</td>
+                                    <td>5678952</td>
+                                    <td>1-Jul-20</td>
+                                    <td>12</td>
+                                    <td>31-May-21</td>
+                                    <td>8.75%</td>
+                                    <td>150,000</td>
+                                    <td>13,125</td>
+                                    <td>163,125</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>ICICI Bank</td>
+                                    <td>12345678</td>
+                                    <td>15-Jul-20</td>
+                                    <td>24</td>
+                                    <td>14-Dec-21</td>
+                                    <td>8.50%</td>
+                                    <td>200,000</td>
+                                    <td>34,000</td>
+                                    <td>234,000</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>1,050,000</td>
+                                <td>141,375</td>
+                                <td>1,191,375</td>
+                            </tfoot>
                         </table>
                     </div>
                     <div class="page-title">Current Best Rates</div>

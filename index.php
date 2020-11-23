@@ -233,9 +233,9 @@
                     <!-- Welcome Content -->
                     <div class="col-12 col-lg-6 col-md-12">
                         <div class="welcome-content">
-                            <!-- <p class="gradient-text cyan wow fadeInUp" data-wow-delay="0.3s">Open FD with any bank</p> -->
-                            <p class="wow fadeInUp" data-wow-delay="0.3s">Open FD with any bank</p>
-                            <!-- <div class="rates_container">
+                            <p class="gradient-text cyan wow fadeInUp" data-wow-delay="0.3s">Open FD with any bank</p>
+                            <!-- <p class="wow fadeInUp" data-wow-delay="0.3s">Open FD with any bank</p> -->
+                            <div class="rates_container">
                                 <div class="rate">
                                     <span>7%</span>
                                     <span>1 Year</span>
@@ -252,7 +252,7 @@
                                     <span>9%</span>
                                     <span>5 Years</span>
                                 </div>
-                            </div> -->
+                            </div>
                             <ul>
                                 <li><svg viewBox="0 -10 511.98685 511" xmlns="http://www.w3.org/2000/svg"><path d="m114.59375 491.140625c-5.609375 0-11.179688-1.75-15.933594-5.1875-8.855468-6.417969-12.992187-17.449219-10.582031-28.09375l32.9375-145.089844-111.703125-97.960937c-8.210938-7.167969-11.347656-18.519532-7.976562-28.90625 3.371093-10.367188 12.542968-17.707032 23.402343-18.710938l147.796875-13.417968 58.433594-136.746094c4.308594-10.046875 14.121094-16.535156 25.023438-16.535156 10.902343 0 20.714843 6.488281 25.023437 16.511718l58.433594 136.769532 147.773437 13.417968c10.882813.980469 20.054688 8.34375 23.425782 18.710938 3.371093 10.367187.253906 21.738281-7.957032 28.90625l-111.703125 97.941406 32.9375 145.085938c2.414063 10.667968-1.726562 21.699218-10.578125 28.097656-8.832031 6.398437-20.609375 6.890625-29.910156 1.300781l-127.445312-76.160156-127.445313 76.203125c-4.308594 2.558594-9.109375 3.863281-13.953125 3.863281zm141.398438-112.875c4.84375 0 9.640624 1.300781 13.953124 3.859375l120.277344 71.9375-31.085937-136.941406c-2.21875-9.746094 1.089843-19.921875 8.621093-26.515625l105.472657-92.5-139.542969-12.671875c-10.046875-.917969-18.6875-7.234375-22.613281-16.492188l-55.082031-129.046875-55.148438 129.066407c-3.882812 9.195312-12.523438 15.511718-22.546875 16.429687l-139.5625 12.671875 105.46875 92.5c7.554687 6.613281 10.859375 16.769531 8.621094 26.539062l-31.0625 136.9375 120.277343-71.914062c4.308594-2.558594 9.109376-3.859375 13.953126-3.859375zm-84.585938-221.847656s0 .023437-.023438.042969zm169.128906-.0625.023438.042969c0-.023438 0-.023438-.023438-.042969zm0 0"/></svg>Choose best FD rate</li>
                                 <li><svg viewBox="0 -10 511.98685 511" xmlns="http://www.w3.org/2000/svg"><path d="m114.59375 491.140625c-5.609375 0-11.179688-1.75-15.933594-5.1875-8.855468-6.417969-12.992187-17.449219-10.582031-28.09375l32.9375-145.089844-111.703125-97.960937c-8.210938-7.167969-11.347656-18.519532-7.976562-28.90625 3.371093-10.367188 12.542968-17.707032 23.402343-18.710938l147.796875-13.417968 58.433594-136.746094c4.308594-10.046875 14.121094-16.535156 25.023438-16.535156 10.902343 0 20.714843 6.488281 25.023437 16.511718l58.433594 136.769532 147.773437 13.417968c10.882813.980469 20.054688 8.34375 23.425782 18.710938 3.371093 10.367187.253906 21.738281-7.957032 28.90625l-111.703125 97.941406 32.9375 145.085938c2.414063 10.667968-1.726562 21.699218-10.578125 28.097656-8.832031 6.398437-20.609375 6.890625-29.910156 1.300781l-127.445312-76.160156-127.445313 76.203125c-4.308594 2.558594-9.109375 3.863281-13.953125 3.863281zm141.398438-112.875c4.84375 0 9.640624 1.300781 13.953124 3.859375l120.277344 71.9375-31.085937-136.941406c-2.21875-9.746094 1.089843-19.921875 8.621093-26.515625l105.472657-92.5-139.542969-12.671875c-10.046875-.917969-18.6875-7.234375-22.613281-16.492188l-55.082031-129.046875-55.148438 129.066407c-3.882812 9.195312-12.523438 15.511718-22.546875 16.429687l-139.5625 12.671875 105.46875 92.5c7.554687 6.613281 10.859375 16.769531 8.621094 26.539062l-31.0625 136.9375 120.277343-71.914062c4.308594-2.558594 9.109376-3.859375 13.953126-3.859375zm-84.585938-221.847656s0 .023437-.023438.042969zm169.128906-.0625.023438.042969c0-.023438 0-.023438-.023438-.042969zm0 0"/></svg>No need to open bank saving account</li>
@@ -282,13 +282,13 @@
     <div class="clearfix"></div>
 
 
-    <section class="section-padding-0-0 relative clearfix" style="margin-top:-120px">
+    <!-- <section class="section-padding-0-0 relative clearfix" style="margin-top:-120px">
     <div class="container">
         <div class="has-shadow agency-sec">
             <div class="row">
                 <div class="col-sm-12 rates_box">
                     <h3>Today’s best Fixed Deposit rates</h3>
-                    <!-- <p>Rs. 5 lacs of FD is insured under the RBI deposit insurance scheme*</p> -->
+                    <p>Rs. 5 lacs of FD is insured under the RBI deposit insurance scheme*</p>
                     <div class="rates_container">
                         <div class="rate">
                             <span>7%</span>
@@ -308,81 +308,10 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6 col-sm-12 ">
-                    <div class="services-block-four v2">
-                        <div class="inner-box">
-                            <div class="icon-img-box">
-                                <img src="img/features/f1.svg" alt="">
-                            </div>
-                            <h3><a href="#">Simplicity and Choice</a></h3>
-                            <div class="text">Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit.</div>
-                            
-                            <div class="side-feature-list-item v2 ">
-                                <i class="fa fa-check check-mark-icon-font" aria-hidden="true"></i>
-                                <div class="foot-c-info">24/7 Support Services</div>
-                            </div>
-                            <div class="side-feature-list-item v2 ">
-                                <i class="fa fa-check check-mark-icon-font" aria-hidden="true"></i>
-                                <div class="foot-c-info">Innovative Solutions</div>
-                            </div>
-                            <div class="side-feature-list-item v2 ">
-                                <i class="fa fa-check check-mark-icon-font" aria-hidden="true"></i>
-                                <div class="foot-c-info">Online Mobile Banking</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 ">
-                    <div class="services-block-four v2">
-                        <div class="inner-box">
-                            <div class="icon-img-box">
-                                <img src="img/features/f2.svg" alt="">
-                            </div>
-                            <h3><a href="#">Worry-Free Experience</a></h3>
-                            <div class="text">Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit.</div>
-                            <div class="side-feature-list-item v2 ">
-                                <i class="fa fa-check check-mark-icon-font" aria-hidden="true"></i>
-                                <div class="foot-c-info">24/7 Support Services</div>
-                            </div>
-                            <div class="side-feature-list-item v2 ">
-                                <i class="fa fa-check check-mark-icon-font" aria-hidden="true"></i>
-                                <div class="foot-c-info">Innovative Solutions</div>
-                            </div>
-                            <div class="side-feature-list-item v2 ">
-                                <i class="fa fa-check check-mark-icon-font" aria-hidden="true"></i>
-                                <div class="foot-c-info">Online Mobile Banking</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 ">
-                    <div class="services-block-four v2">
-                        <div class="inner-box">
-                            <div class="icon-img-box">
-                                <img src="img/features/f3.svg" alt="">
-                            </div>
-                            <h3><a href="#">Performance That Scale</a></h3>
-                            <div class="text">Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit.</div>
-                            <div class="side-feature-list-item v2 ">
-                                <i class="fa fa-check check-mark-icon-font" aria-hidden="true"></i>
-                                <div class="foot-c-info">24/7 Support Services</div>
-                            </div>
-                            <div class="side-feature-list-item v2 ">
-                                <i class="fa fa-check check-mark-icon-font" aria-hidden="true"></i>
-                                <div class="foot-c-info">Innovative Solutions</div>
-                            </div>
-                            <div class="side-feature-list-item v2 ">
-                                <i class="fa fa-check check-mark-icon-font" aria-hidden="true"></i>
-                                <div class="foot-c-info">Online Mobile Banking</div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
-        
     </div>
-    </section>
+    </section> -->
 
     <div class="clearfix"></div>
 
@@ -574,7 +503,7 @@
                                 <div class="main-amount">
                                     <input type="text" class="calculator-invest" id="cal-amount" readonly>
                                 </div>
-                                <div class="invest-amount" data-min="0 USD" data-max="100000 USD">
+                                <div class="invest-amount" data-min="0 INR" data-max="100000 INR">
                                     <div id="cal-range" class="invest-range-slider"></div>
                                 </div>
                             </div>
@@ -626,11 +555,11 @@
                             <div class="invest-range-area">
                                 <div class="main-amount">
                                     <div class="input_box">
-                                        <input type="text" class="calculator-invest" id="cal-amount">
-                                        <span>USD</span>
+                                        <input type="number" class="calculator-invest" id="cal-amount">
+                                        <span>INR</span>
                                     </div>
                                 </div>
-                                <div class="invest-amount" data-min="0 USD" data-max="100000 USD">
+                                <div class="invest-amount" data-min="0 INR" data-max="100000 INR">
                                     <div id="cal-range" class="invest-range-slider"></div>
                                 </div>
                             </div>
@@ -639,7 +568,7 @@
                             <div class="invest-range-area">
                                 <div class="main-amount">
                                     <div class="input_box">
-                                        <input type="text" class="calculator-invest" id="cal-year" style="width: 50px;">
+                                        <input type="number" class="calculator-invest" id="cal-year" style="width: 50px;">
                                         <span>Year</span>
                                     </div>
                                 </div>
@@ -652,7 +581,7 @@
                             <div class="invest-range-area">
                                 <div class="main-amount">
                                     <div class="input_box">
-                                        <input type="text" class="calculator-invest" id="cal-month" style="width: 50px;">
+                                        <input type="number" class="calculator-invest" id="cal-month" style="width: 50px;">
                                         <span>Month</span>
                                     </div>
                                 </div>
@@ -675,21 +604,47 @@
 
                         </div>
                         <div>
-                            <canvas id="myChart" style="width: 100%;height:calc(100% - 140px)"></canvas>
+                            <!-- <canvas id="myChart" style="width: 100%;height:calc(100% - 140px)"></canvas> -->
                             <div class="info_container">
                                 <div class="info_box">
-                                    <p>Total Investment</p>
-                                    <p>100000</p>
+                                    <p>Amount</p>
+                                    <p>100,000</p>
                                 </div>
                                 <div class="info_box">
-                                    <p>Total Interest</p>
-                                    <p>19562</p>
-                                </div>
-                                <div class="info_box">
-                                    <p>Maturity Value</p>
-                                    <p>119562</p>
+                                    <p>Tenure</p>
+                                    <p>12</p>
                                 </div>
                             </div>
+                            <table class="table table-striped best_table">
+                                <thead>
+                                    <tr>
+                                        <th>Bank</th>
+                                        <th>Credit Rating</th>
+                                        <th>Interest Rate</th>
+                                        <th>Interest Earend</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>RBL Bank</td>
+                                        <td>AA</td>
+                                        <td>8.75%</td>
+                                        <td>8,750</td>
+                                    </tr>
+                                    <tr>
+                                        <td>IndusInd Bank</td>
+                                        <td>A+</td>
+                                        <td>8.60%</td>
+                                        <td>8,600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>AU Small Finance Bank</td>
+                                        <td>A+</td>
+                                        <td>8.50%</td>
+                                        <td>8,500</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                      <button type="submit" class="custom-button">Calculate</button>

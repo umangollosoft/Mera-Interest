@@ -790,10 +790,11 @@ button:focus, input:focus, select:focus {
 .main .wrapper .stats-block .secondary-title {
   margin: 0;
   font-size: 1rem;
+  margin-right: 160px;
 }
 
-.main .wrapper .stats-block .secondary-title:nth-child(1) {
-  margin-right: 300px;
+.main .wrapper .stats-block .secondary-title:last-child {
+  margin-right: 0;
 }
 
 .main .wrapper .value {
@@ -885,14 +886,11 @@ button:focus, input:focus, select:focus {
 .main .wrapper table th {
   font-weight: 400;
   padding: 15px 12px;
-  color: var(--color-text-1);
+  color: #fff;
   border-bottom: 1px solid var(--color-border-1);
   font-size: .75rem;
   cursor: pointer;
-}
-
-.main .wrapper table th.sorting_asc, .main .wrapper table th .sorting_desc {
-  background-color: var(--color-bg-1);
+  background-color: #1b5891;
 }
 
 .main .wrapper table tbody tr {
@@ -945,6 +943,10 @@ button:focus, input:focus, select:focus {
 }
 
 .main .wrapper .dataTables_wrapper .dataTables_length label {
+  margin-bottom: 0;
+}
+
+.main .wrapper .dataTables_wrapper .dataTables_filter label {
   margin-bottom: 0;
 }
 
@@ -1212,5 +1214,27 @@ button:focus, input:focus, select:focus {
 
 .owl-carousel .owl-nav button.owl-next {
   right: 0px;
+}
+
+.fd_table tbody tr td {
+  text-align: right;
+}
+
+.fd_table tbody tr td:first-child {
+  text-align: center;
+}
+
+.fd_table tbody tr td:nth-child(2) {
+  text-align: left;
+}
+
+.fd_table tbody tr td:last-child {
+  text-align: right !important;
+}
+
+.fd_table tfoot tr td {
+  text-align: right;
+  padding: 10px 12px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=dashboard.css.map */

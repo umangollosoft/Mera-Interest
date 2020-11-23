@@ -14,7 +14,7 @@
     <link rel="icon" href="../img/core-img/favicon.ico">
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="../css/jquery-ui.min.css">
-    <link rel="stylesheet" href="http://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="../css/dashboard.css">
@@ -36,10 +36,10 @@
                     <a href="recent-transaction.php" class="<?php if($currentPage =='recent'){echo 'router-link-active';}?>">
                         <span>Transaction</span>
                     </a> 
-                    <a href="#" class="dropdown-label">
+                    <!-- <a href="#" class="dropdown-label">
                         <span>Tools</span>
-                    </a>   
-                    <div class="dropdown-nav" style="display: none;">
+                    </a>    -->
+                    <!-- <div class="dropdown-nav" style="display: none;">
                         <ul class="list-flat dropdown-nav-list">
                             <li>
                                 <a target="_blank" href="#">
@@ -52,7 +52,7 @@
                                 </a>
                             </li> 
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="right-nav">
                     <div class="user-nav perspective">

@@ -6,10 +6,10 @@
 //         max: 100000,
 //         step: 1000,
 //         slide: function( event, ui ) {
-//         $( "#cal-amount" ).val( ui.value + " USD" );
+//         $( "#cal-amount" ).val( ui.value + " INR" );
 //         }
 //     });
-//     $( "#cal-amount" ).val($( "#cal-range" ).slider( "value" ) + " USD");
+//     $( "#cal-amount" ).val($( "#cal-range" ).slider( "value" ) + " INR");
 // } );
 // $( function() {
 //     $( "#cal-year-range" ).slider({
